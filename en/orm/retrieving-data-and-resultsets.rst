@@ -1125,7 +1125,7 @@ Finally, we can put these two functions together to do the grouping::
         echo sprintf("There are %d %s articles", count($articles), $status);
     }
 
-The above will ouput the following lines::
+The above will output the following lines::
 
     There are 4 published articles
     There are 5 unpublished articles
