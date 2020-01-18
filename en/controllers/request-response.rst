@@ -1029,7 +1029,8 @@ object::
             'path' => '',
             'domain' => '',
             'secure' => false,
-            'http' => false,
+            'httponly' => false,
+            'samesite' => 'Lax',
         ]
     ]);
 
