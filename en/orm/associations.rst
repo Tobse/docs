@@ -173,8 +173,7 @@ records::
     {
         public function initialize(array $config): void
         {
-            $this->hasOne('Addresses')
-                ->setName('Addresses')
+            $this->hasOne('Addresses')                
                 ->setFinder('primary')
                 ->setDependent(true);
         }
